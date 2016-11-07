@@ -1,0 +1,219 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Hate Crimes in the U.S.</title>
+  <meta name="description" content="Hate Crimes in the U.S.">
+  <meta name="author" content="Alma Washington">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="css/c3.css" rel="stylesheet" type="text/css">
+  
+  
+  <!--JQUERY--> 
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+  
+  <!--BOOSTRAP STYLESHEET-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+  <!--BOOTSTRAP JS-->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <!--FONT AWESOME-->
+  <script src="https://use.fontawesome.com/1ec4f0deee.js"></script>
+  
+  <!--CSS FOR DATATABLE-->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    
+    <!--NAVBAR, FROM BOOTSTRAP-->
+     
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">LOCAL</a></li>
+        <li><a href="#">CALIFORNIA</a></li>
+        <li><a href="#">SPORTS</a></li>
+        <li><a href="#">ENTERTAINMENT</a></li>
+        <li><a href="#">NATION</a></li>
+        <li><a href="#">WORLD</a></li>
+        <li><a href="#">BUSINESS</a></li>
+        <li><a href="#">OPINION</a></li>
+        <li><a href="#">LIFESTYLE</a></li>
+        <li><a href="#">TRAVEL</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> <!--END NAVBAR-->
+
+
+<!--HEADER-->
+<div class="header">
+    
+</div><!--HEADER-->
+<!--TITLE-->
+<div class="container">
+    <div class="title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="title-icons">
+            <a href=""> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href=""> <i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </div>
+        <h1 id="title">Hate Crimes in the U.S.</h1>
+        <div class="title" id="subtitle">                
+            <p>The FBI has gathered and published hate crime statistics every year since 1992. These efforts serve as a backstop for investigations by state and local authorities, which handle the vast majority of hate crime cases throughout the country. The statistics below represent the hate crime data reported to the FBI in <strong>2014.</strong></p>
+        </div>
+        <div>
+            <p class="byline">By <a href="#" id="author">ALMA WASHINGTON</a></p>
+        </div>
+        <div>
+            <p class="date">November 7, 2016</p>
+        </div>
+    </div> <!--TITLE-->
+    
+    <!--DEMOGRAPHICS-->
+    <div class="demographics">
+    <div class="demographics-graph col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        
+    <div class="container">
+      <h2 class="graph-title">Hate Crimes by Demographics</h2>
+      <p>A hate crime is a traditional offense like murder, arson, or vandalism with an added element of bias. For the purposes of collecting statistics, the FBI has defined a hate crime as a “criminal offense against a person or property motivated in whole or in part by an offender’s bias against a race, religion, disability, sexual orientation, ethnicity, gender, or gender identity.”</p>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#race">Race</a></li>
+        <li><a data-toggle="tab" href="#religion">Religion</a></li>
+        <li><a data-toggle="tab" href="#sexual-orientation">Sexual Orientation</a></li>
+        <li><a data-toggle="tab" href="#ethnicity">Ethnicity</a></li>
+        <li><a data-toggle="tab" href="#disability">Disability</a></li>
+        <li><a data-toggle="tab" href="#gender">Gender</a></li>
+        <li><a data-toggle="tab" href="#gender-identity">Gender-Identity </a></li>
+    
+      </ul>
+    
+      <div class="tab-content col-lg-12 col-md-12">
+        <div id="race" class="tab-pane fade in active">
+          <!--<h3>HOME</h3>-->
+          <div id="chart"></div>
+        </div>
+        <div id="religion" class="tab-pane fade">
+          <div id="religion-chart"></div>
+        </div>
+        <div id="sexual-orientation" class="tab-pane fade">
+          <div id="so-chart"></div>
+        </div>
+        <div id="ethnicity" class="tab-pane fade">
+          <div id="ethnicity-chart"></div>
+        </div>
+        <div id="disability" class="tab-pane fade">
+          <div id="disability-chart"></div>
+        </div>
+        <div id="gender" class="tab-pane fade">
+          <div id="gender-chart"></div>
+        </div>
+        <div id="gender-identity" class="tab-pane fade">
+         <div id="genderi-chart"></div>
+        </div>
+      </div><!--TABS CONTENT--> 
+    </div> <!--TABS CONTAINER-->
+        
+        
+    </div> <!--DEMOGRAPHICS-GRAPH-->
+    
+
+    </div> <!--DEMOGRAPHICS-->
+    
+
+    
+    <!--STATE-->
+    
+    <div class="state">
+        <h2 class="graph-title" id="state-title"> Hate Crimes by State</h2>
+        <div>The FBI divides its data into many different categories, including the amount of offenses reported by each state. Roll over the various states to see the reported numbers. </div>
+        <div id="container" style="height: 500px; min-width: 310px; max-width: 600px; margin: 0 auto"></div>
+       
+        
+    </div> <!--END STATE-->
+    
+    <!--YEARS-->
+    <div class="years">
+        <hr>
+        <h2 class="graph-title">Hate Crimes Over the Years</h2>
+        <div>This graph showcases the hate crime offenses reported over a ten year period. </div>
+        <div id="years-chart"></div>
+    </div>
+    
+   
+        
+
+     
+     
+
+  
+  <h2 class="graph-title">Incidents, Offenses, Victims, and Known Offenders</h2>
+  <!--BIG DATA TABLE-->
+  <table id="example" class="display col-lg-10 col-md-10" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Bias Group</th>
+                <th>Incidents</th>
+                <th>Offenses</th>
+                <th>Victims</th>
+                <th>Known Offenders</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Bias Group</th>
+                <th>Incidents</th>
+                <th>Offenses</th>
+                <th>Victims</th>
+                <th>Known Offenders</th>
+            </tr>
+        </tfoot>
+    </table>
+</div> <!--CONTAINER-->
+  <!--JQUERY-->
+  <!--FOOTER-->
+  <div class="footer">
+    <a href="" class="footer-text">Times of Service</a>
+    <a href="" class="footer-text">Privacy Policy</a>
+    <a href="" class="footer-text">About Our Ads</a>
+    <a href="" class="footer-text">© 2016</a>
+    <a href="" class="footer-text">About This Site</a>
+    <a href="" class="right-footer-text">Source: urc.fbi.gov</a>
+  </div> <!--END FOOTER>
+  
+  
+  <!--SCRIPT FOR DATATABLE-->
+  <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+
+  <script src="js/d3.min.js" charset="utf-8"></script>
+  <script src="js/c3.min.js"></script>
+  
+  <!--HIGHCHARTS SCRIPTS-->
+  <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+  <script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+  
+
+
+  <script src="js/scripts_chart.js"></script> 
+
+</body>
+</html>

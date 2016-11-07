@@ -1,0 +1,135 @@
+{
+	"Race": [{
+			"Bias Group": "Anti-White",
+			"Offenses": "701"
+		}, {
+			"Bias Group": "Anti-Black or African American",
+			"Offenses": "1955"
+		}, {
+			"Bias Group": "Anti-American Indian or Alaska Native",
+			"Offenses": "142"
+		}, {
+			"Bias Group": "Anti-Asian",
+			"Offenses": "168"
+		}, {
+			"Bias Group": "Anti-Native Hawaiian or Other Pacific Islander",
+			"Offenses": "4"
+		}, {
+			"Bias Group": "Anti-Multiple Races, Group",
+			"Offenses": "111"
+		}
+
+	],
+
+	"Religion": [{
+		"Bias Group": "Anti-Jewish",
+		"Offenses": 635
+	}, {
+		"Bias Group": "Anti-Catholic",
+		"Offenses": 67
+	}, {
+		"Bias Group": "Anti-Protestant",
+		"Offenses": 28
+	}, {
+		"Bias Group": "Anti-Islamic (Muslim)",
+		"Offenses": 178
+	}, {
+		"Bias Group": "Anti-Other Religion",
+		"Offenses": 120
+	}, {
+		"Bias Group": "Anti-Multiple Religions, Group",
+		"Offenses": 51
+	}, {
+		"Bias Group": "Anti-Atheism/Agnosticism/etc.",
+		"Offenses": 13
+	}],
+
+	"Sexual": [{
+		"Bias Group": "Anti-Gay (Male)",
+		"Offenses": 683
+	}, {
+		"Bias Group": "Anti-Lesbian",
+		"Offenses": 168
+	}, {
+		"Bias Group": "Anti-Lesbian, Gay, Bisexual, or Transgender (Mixed Group)",
+		"Offenses": 278
+	}, {
+		"Bias Group": "Anti-Heterosexual",
+		"Offenses": 18
+	}, {
+		"Bias Group": "Anti-Bisexual",
+		"Offenses": 31
+	}],
+
+	"Ethnicity": [{
+		"Bias Group": "Anti-Hispanic or Latino",
+		"Offenses": 376
+	}, {
+		"Bias Group": "Anti-Not Hispanic or Latino3",
+		"Offenses": 414
+	}],
+
+
+	"Disability": [{
+		"Bias Group": "Anti-Physical",
+		"Offenses": 26
+	}, {
+		"Bias Group": "Anti-Mental",
+		"Offenses": 69
+	}],
+
+
+
+	"Gender": [{
+		"Bias Group": "Anti-Male",
+		"Offenses": 12
+	}, {
+		"Bias Group": "Anti-Female",
+		"Offenses": 28
+	}],
+
+
+	"GenderI": [{
+		"Bias Group": "Anti-Transgender",
+		"Offenses": 69
+	}, {
+		"Bias Group": "Anti-Gender Non-Conforming",
+		"Offenses": 40
+	}],
+    
+    "Years": [{
+    "Year": "2004",
+    "Number": "9035"
+  },{
+    "Year": "2005",
+    "Number": "8380"
+  },{
+    "Year": "2006",
+    "Number": "9080"
+  },{
+    "Year": "2007",
+    "Number": "9006"
+  },{
+    "Year": "2008",
+    "Number": "9168"
+  },{
+    "Year": "2009",
+    "Number": "7789"
+  },{
+    "Year": "2010",
+    "Number": "7699"
+  },{
+    "Year": "2011",
+    "Number": "7254"
+  },{
+    "Year": "2012",
+    "Number": "6718"
+  },{
+    "Year": "2013",
+    "Number": "6933"
+  },{
+    "Year": "2014",
+    "Number": "6418"
+  }]
+
+}

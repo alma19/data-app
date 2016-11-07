@@ -1,0 +1,125 @@
+/*GLOBAL STYLES*/ 
+@font-face {
+    font-family: 'LA Web Display Kis Bold';
+    src: url('https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.3.1/laheadline.eot');
+    src: url('https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.3.1/laheadline.eot?#iefix') format('embedded-opentype'),
+         url('https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.3.1/laheadline.woff') format('woff'),
+         url('https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.3.1/laheadline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+P {
+    font-family: Georgia, Times, Times New Roman, serif; 
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*NAVBAR*/
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff !important;
+    text-align: center;
+}
+
+/*CENTER NAVBAR*/
+.navbar .navbar-nav {
+display: inline-block;
+float: none;
+vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+text-align: center;
+}
+
+.navbar-header{
+float:none;
+}
+
+/*#latimes {*/
+    /*background-image: url('http://d1qqc1e9kvmdh8.cloudfront.net/img/latimes-logo-reversed.svg'); */
+/*}*/
+
+/*TITLE SECTION */
+.title {
+    text-align: center;
+}
+
+#title {
+    font-family: "LA Web Display Kis Bold", Georgia, Times, Times New Roman, serif; 
+}
+
+.byline {
+    font-weight: bold;  
+}
+
+#author {
+    color: red; 
+}
+
+.date {
+    font-weight: 100;  
+}
+
+/*SOCIAL MEDIA ICONS*/
+.title-icons a {
+    color: #000000;
+    padding: 10px;
+}
+
+
+/*DEMOGRAPHICS*/
+
+.graph-title {
+    font-family: "LA Web Display Kis Bold", Georgia, Times, Times New Roman, serif; 
+}
+
+.demographics-text {
+    padding-top: 20%; 
+}
+
+.demographics-graph {
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px; 
+}
+.nav-tabs>li>a {
+    color: #004195;
+}
+
+hr {
+    border-top: 1px solid #000 !important; 
+}
+
+#state-title {
+    margin-top: 10px; 
+}
+
+.state {
+    padding: 10px; 
+}
+
+/*FOOTER*/
+.footer {
+    background-color: #000;
+    color: #fff;
+    min-height: 50px;
+    padding-top: 10px;  
+}
+
+.footer a {
+    color: #fff;
+    font-size: 11px; 
+}
+
+.footer-text {
+    margin-left: 10px; 
+}
+
+.right-footer-text {
+    float: right;
+    padding-right: 10px; 
+}
+
