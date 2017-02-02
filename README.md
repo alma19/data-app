@@ -1,7 +1,6 @@
 # data-app
 
-MEJO 586: Interactive Multimedia 
-PROJECT 3: DATA APP
+### MEJO 586: Interactive Multimedia. PROJECT 3: DATA APP
 
 Project Description: Using any data set from data.gov, create a data driven dashboard that accurately tells a story or shows breakdowns and collections of the data in a visual way. This dashboard should be a well designed web application that is interactive and visual. Whenever possible, data should link to outside sources.
 
