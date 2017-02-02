@@ -8,13 +8,13 @@ Using any data set from data.gov, create a data driven dashboard that accurately
 
 #### Requirements:
 
-Responsive Design (Bootstrap3)
-Styles must follow one of the style guides linked below.
-Use of Charts and Graphs (Suggest C3.js, or HighCharts highcharts.com/))
-Featured Tabular Display of a subset of data (Top 10, Specific tag, or date)
-Tabular Display of ALL data (suggest datatables.net/))
-Use of strong UI elements, (tabs, accordion, sliders, overlays, etc.)
-Use of XML Data from data.gov
++ Responsive Design (Bootstrap3)
++ Styles must follow one of the style guides linked below.
++ Use of Charts and Graphs (Suggest C3.js, or HighCharts highcharts.com/))
++ Featured Tabular Display of a subset of data (Top 10, Specific tag, or date)
++ Tabular Display of ALL data (suggest datatables.net/))
++ Use of strong UI elements, (tabs, accordion, sliders, overlays, etc.)
++ Use of XML Data from data.gov
 
 
 #### Expectations:
@@ -25,10 +25,10 @@ This site/app should professional and work well enough to publish on NYTimes or 
 
 Style Guides app.box.com/s/xhehcedqlelnvrypmk6y
 
-Dallas Morning News
-LA Times
-The Washington Post
-San Diago Union Tribune
++ Dallas Morning News
++ LA Times
++ The Washington Post
++ San Diago Union Tribune
 
 
 #### Source: https://github.com/steven-king/j586/wiki/Project-3:-Data-App
