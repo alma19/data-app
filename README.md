@@ -1,6 +1,6 @@
 # data-app
 
-### MEJO 586: Interactive Multimedia. PROJECT 3: DATA APP
+### MEJO 586: Interactive Multimedia. PROJECT 3: Data App.
 
 #### Project Description: 
 
